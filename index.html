@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meiling Wang</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - icons
+  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Meiling Wang" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Meiling Wang">Meiling Wang</h1>
+
+          <p class="title">Seeking Software Engineer intern</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:llling10099@gmail.com" class="contact-link">llling10099@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Seattle, WA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="http://www.linkedin.com/in/meiling-wang-cs" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/lllinging" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="mailto:llling10099@gmail.com" class="social-link">
+            <ion-icon name="mail"></ion-icon> 
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a graduate student at Northeastern University, pursuing a Master's in Information Systems with a passion for creating innovative and impactful solutions to complex problems. My expertise spans Java, web technologies, and frameworks such as React and Spring Boot. I have a strong foundation in software design principles, including OOP and MVC.
+          </p>
+          <p>
+            I am particularly interested in applying my technical expertise in business applications that create real value for people.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">My Skills</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Programming Language</h4>
+
+                <p class="service-item-text">
+                  Java, JavaScript, TypeScript, Go, Python, HTML, CSS.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Frameworks</h4>
+
+                <p class="service-item-text">
+                  React, Spring Boot, Flask, Node.js, Express.js, RabbitMQ.  
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Database</h4>
+
+                <p class="service-item-text">
+                  MySQL, MongoDB, Redis.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Tools</h4>
+
+                <p class="service-item-text">
+                  Git, Docker, AWS, Linux, Maven, Postman.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+            <button class="modal-close-btn" data-modal-close-btn>
+            </button>
+          </section>
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Northeastern University</h4>
+
+              <span>09/2023 — 12/2025(expected)</span>
+
+              <p class="timeline-text">
+                Master of Science in Information Systems
+              </p>
+              <p class="timeline-text">
+                <i>Related Courses: Data Structure and Algorithms, Network Structure & Cloud Computing, Web Development.</i>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Xiamen University</h4>
+
+              <span>09/2015 — 06/2018</span>
+
+              <p class="timeline-text">
+                Master of Science in Biology
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Huazhong Agricultural University</h4>
+
+              <span>09/2011 — 06/2015</span>
+
+              <p class="timeline-text">
+                Bachelor of Science in Aquarium Science and Technology
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Front End</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Full Stack</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Microservices</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Front End</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Full Stack</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Microservices</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="front end">
+              <a href="#">
+                <video controls >
+                    <source src="./assets/videos/Seattle-Tour-Guide.mp4" type="video/mp4" />
+                  </video>
+                <h3 class="project-title"><b>Seattle Tour Guide</b></h3>
+                <h3 class="project-title">Techniques: HTML, CSS, JS, React</h3>
+                <div class="project-category" style="display: flex">
+                  <p class="project-category" style="margin-left: 0px">Front End</p> 
+                  <a class="project-title"  href="https://github.com/lllinging/seattle-tour-guide">
+                    <i class="fa fa-github" style="font-size:20px"></i>
+                  </a>
+                </div>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="full stack">
+              <a href="#">
+                <video controls >
+                    <source src="./assets/videos/Mini-Amazon.mp4" type="video/mp4" />
+                  </video>
+                <h3 class="project-title"><b>Mini-Amazon</b></h3>
+                <h3 class="project-title">Techniques: Spring Boot, Spring Security, React, ySQL, Redis</h3>
+                <div class="project-category" style="display: flex">
+                  <p class="project-category" style="margin-left: 0px">Full Stack</p> 
+                  <a class="project-title"  href="https://github.com/lllinging/miniAmazon-SpringBoot-React">
+                    <i class="fa fa-github" style="font-size:20px"></i>
+                  </a>
+                </div>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="full stack">
+              <a href="#">
+                <video controls >
+                    <source src="./assets/videos/Gym-Guide.mp4" type="video/mp4" />
+                  </video>
+                <h3 class="project-title"><b>Gym Guide</b></h3>
+                <h3 class="project-title">Techniques: Node.js, Express.js, EJS, MongoDB, Cloudinary</h3>
+                <div class="project-category" style="display: flex">
+                  <p class="project-category" style="margin-left: 0px">Full Stack</p> 
+                  <a class="project-title"  href="https://github.com/lllinging/Gym-Guide">
+                    <i class="fa fa-github" style="font-size:20px"></i>
+                  </a>
+                </div>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="full stack">
+              <a href="#">
+                <video controls >
+                    <source src="./assets/videos/Job-Management-Application.mp4" type="video/mp4" />
+                  </video>
+                <h3 class="project-title"><b>Job-Management-Application</b></h3>
+                <h3 class="project-title">Techniques: Spring Boot, Spring Security, React, MySQL, Redis</h3>
+                <div class="project-category" style="display: flex">
+                  <p class="project-category" style="margin-left: 0px">Full Stack</p> 
+                  <a class="project-title"  href="hhttps://github.com/lllinging/job-application-management-flask-html-css-bootstrap-">
+                    <i class="fa fa-github" style="font-size:20px"></i>
+                  </a>
+                </div>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="microservices">
+              <a href="#">
+              <figure class="project-img">
+                  <img src="./assets/images/Microservices.png" alt="orizon" loading="lazy">
+                </figure>
+                <h3 class="project-title"><b>Go Microservices</b></h3>
+                <h3 class="project-title">Techniques: Go, Docker, RabbitMQ, gRPC</h3>
+                <div class="project-category" style="display: flex">
+                  <p class="project-category" style="margin-left: 0px">Microservices</p> 
+                  <a class="project-title"  href="https://github.com/lllinging/go-micro">
+                    <i class="fa fa-github" style="font-size:20px"></i>
+                  </a>
+                </div>
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.2223736853753!2d-122.33999817411323!3d47.621808486927826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54901537b4006d9f%3A0x60430e03329c9cd7!2s225%20Northeastern%20University!5e0!3m2!1sen!2sus!4v1727681233165!5m2!1sen!2sus" width="400" height="300" loading="lazy"></iframe>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

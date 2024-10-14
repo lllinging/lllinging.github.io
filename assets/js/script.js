@@ -157,3 +157,33 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+// Dark mode toggle
+const darkModeToggle = document.getElementById('darkModeToggle');
+const serviceIconDesign = document.getElementById('service-icon-design');
+const serviceIconDev = document.getElementById('service-icon-dev');
+const serviceIconApp = document.getElementById('service-icon-app');
+const serviceIconPhoto = document.getElementById('service-icon-photo');
+var iframe = document.querySelector('.mapbox iframe');
+const body = document.body;
+
+darkModeToggle.addEventListener('click', () => {
+  body.classList.toggle('dark-mode');
+
+  // Change the icon based on the current mode
+  if (body.classList.contains('dark-mode')) {
+    darkModeToggle.innerHTML = '<ion-icon name="sunny-outline" style="color: var(--text-color)"></ion-icon>';
+    serviceIconDesign.innerHTML = '<img src="./assets/images/icon-design.svg" alt="programming languages icon" width="40">';
+    serviceIconDev.innerHTML = '<img src="./assets/images/icon-dev.svg" alt="programming languages icon" width="40">';
+    serviceIconApp.innerHTML = '<img src="./assets/images/icon-app.svg" alt="programming languages icon" width="40">';
+    serviceIconPhoto.innerHTML = '<img src="./assets/images/icon-photo.svg" alt="programming languages icon" width="40">';
+    iframe.style.filter = 'grayscale(1) invert(1)';
+  } else {
+    darkModeToggle.innerHTML = '<ion-icon name="moon-outline" style="color: var(--text-color)"></ion-icon>';
+    serviceIconDesign.innerHTML = '<img src="./assets/images/icon-design-light.svg" alt="programming languages icon" width="40">';
+    serviceIconDev.innerHTML = '<img src="./assets/images/icon-dev-light.svg" alt="programming languages icon" width="40">';
+    serviceIconApp.innerHTML = '<img src="./assets/images/icon-app-light.svg" alt="programming languages icon" width="40">';
+    serviceIconPhoto.innerHTML = '<img src="./assets/images/icon-photo-light.svg" alt="programming languages icon" width="40">';
+    iframe.style.filter = 'grayscale(1) invert(0)';
+  }
+});
